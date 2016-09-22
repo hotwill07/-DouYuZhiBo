@@ -27,7 +27,7 @@ extension HomeViewController {
     private func setupNavigationBar() {
         // 1.设置左侧的按钮
         navigationItem.leftBarButtonItem = UIBarButtonItem(imageName: "logo")
-                
+        
         // 2.右侧的按钮
         let size = CGSize(width: 40, height: 40)
         let historyItem = UIBarButtonItem(imageName: "image_my_history", hilightedImageName: "Image_my_history_click", size: size)
