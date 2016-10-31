@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// 增加点注释
 class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
