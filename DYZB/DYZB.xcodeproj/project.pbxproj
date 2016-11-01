@@ -15,6 +15,9 @@
 		4F51CE541D93D7360024C44F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51CE531D93D7360024C44F /* Common.swift */; };
 		4F51CE561D93E2650024C44F /* PageContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51CE551D93E2650024C44F /* PageContenView.swift */; };
 		4F5FE8F61DC874090038F3EA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5FE8F51DC874090038F3EA /* TestViewController.swift */; };
+		4F5FE8F81DC876510038F3EA /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5FE8F71DC876510038F3EA /* LiveViewController.swift */; };
+		4F5FE8FA1DC8766E0038F3EA /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5FE8F91DC8766E0038F3EA /* FollowViewController.swift */; };
+		4F5FE8FC1DC876830038F3EA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5FE8FB1DC876830038F3EA /* ProfileViewController.swift */; };
 		4F8519671D94F1BA00F7A30D /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8519661D94F1BA00F7A30D /* UIColor-Extension.swift */; };
 		4FEB58201D938670009C381B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB581F1D938670009C381B /* AppDelegate.swift */; };
 		4FEB58251D938670009C381B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB58231D938670009C381B /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 		4F51CE531D93D7360024C44F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		4F51CE551D93E2650024C44F /* PageContenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageContenView.swift; path = DYZB/Classes/Tools/PageContenView.swift; sourceTree = SOURCE_ROOT; };
 		4F5FE8F51DC874090038F3EA /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		4F5FE8F71DC876510038F3EA /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveViewController.swift; path = DYZB/Classes/Main/Controll/LiveViewController.swift; sourceTree = SOURCE_ROOT; };
+		4F5FE8F91DC8766E0038F3EA /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FollowViewController.swift; path = DYZB/Classes/Main/Controll/FollowViewController.swift; sourceTree = SOURCE_ROOT; };
+		4F5FE8FB1DC876830038F3EA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = DYZB/Classes/Main/Controll/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
 		4F8519661D94F1BA00F7A30D /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		4FEB581C1D93866F009C381B /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEB581F1D938670009C381B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +131,7 @@
 		4FEB58341D93874D009C381B /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				4F5FE8F91DC8766E0038F3EA /* FollowViewController.swift */,
 				4FEB58401D93A3B2009C381B /* Follow.storyboard */,
 			);
 			path = Follow;
@@ -143,6 +150,7 @@
 		4FEB58361D93874D009C381B /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				4F5FE8F71DC876510038F3EA /* LiveViewController.swift */,
 				4FEB583D1D93A38C009C381B /* Live.storyboard */,
 			);
 			path = Live;
@@ -161,6 +169,7 @@
 		4FEB58381D93874D009C381B /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				4F5FE8FB1DC876830038F3EA /* ProfileViewController.swift */,
 				4FEB58431D93A3DB009C381B /* Profile.storyboard */,
 			);
 			path = Profile;
@@ -300,12 +309,15 @@
 				4F4074FF1D98E693001D4150 /* CollectionHeaderView.swift in Sources */,
 				4F5FE8F61DC874090038F3EA /* TestViewController.swift in Sources */,
 				4F8519671D94F1BA00F7A30D /* UIColor-Extension.swift in Sources */,
+				4F5FE8FC1DC876830038F3EA /* ProfileViewController.swift in Sources */,
 				4FEB58661D93B387009C381B /* MainViewController.swift in Sources */,
 				4F51CE521D93D5930024C44F /* PageTitleView.swift in Sources */,
 				4F51CE4D1D93B9590024C44F /* UIBarButtonItem-Extension.swift in Sources */,
 				4F51CE541D93D7360024C44F /* Common.swift in Sources */,
 				4FEB58681D93B3C1009C381B /* HomeViewController.swift in Sources */,
 				4F4074F71D98CA5D001D4150 /* RecommandViewController.swift in Sources */,
+				4F5FE8F81DC876510038F3EA /* LiveViewController.swift in Sources */,
+				4F5FE8FA1DC8766E0038F3EA /* FollowViewController.swift in Sources */,
 				4F51CE561D93E2650024C44F /* PageContenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
