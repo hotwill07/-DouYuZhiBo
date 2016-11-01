@@ -14,7 +14,6 @@
 		4F51CE521D93D5930024C44F /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51CE511D93D5930024C44F /* PageTitleView.swift */; };
 		4F51CE541D93D7360024C44F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51CE531D93D7360024C44F /* Common.swift */; };
 		4F51CE561D93E2650024C44F /* PageContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51CE551D93E2650024C44F /* PageContenView.swift */; };
-		4F5FE8F41DC870480038F3EA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5FE8F31DC870480038F3EA /* TestViewController.swift */; };
 		4F8519671D94F1BA00F7A30D /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8519661D94F1BA00F7A30D /* UIColor-Extension.swift */; };
 		4FEB58201D938670009C381B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB581F1D938670009C381B /* AppDelegate.swift */; };
 		4FEB58251D938670009C381B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB58231D938670009C381B /* Main.storyboard */; };
@@ -36,7 +35,6 @@
 		4F51CE511D93D5930024C44F /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageTitleView.swift; path = DYZB/Classes/Tools/Extension/PageTitleView.swift; sourceTree = SOURCE_ROOT; };
 		4F51CE531D93D7360024C44F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		4F51CE551D93E2650024C44F /* PageContenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageContenView.swift; path = DYZB/Classes/Tools/PageContenView.swift; sourceTree = SOURCE_ROOT; };
-		4F5FE8F31DC870480038F3EA /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		4F8519661D94F1BA00F7A30D /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		4FEB581C1D93866F009C381B /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEB581F1D938670009C381B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				4FEB58631D93B387009C381B /* MainViewController.swift */,
-				4F5FE8F31DC870480038F3EA /* TestViewController.swift */,
 				4FEB58231D938670009C381B /* Main.storyboard */,
 			);
 			path = Controll;
@@ -298,7 +295,6 @@
 			files = (
 				4FEB58201D938670009C381B /* AppDelegate.swift in Sources */,
 				4F4074FF1D98E693001D4150 /* CollectionHeaderView.swift in Sources */,
-				4F5FE8F41DC870480038F3EA /* TestViewController.swift in Sources */,
 				4F8519671D94F1BA00F7A30D /* UIColor-Extension.swift in Sources */,
 				4FEB58661D93B387009C381B /* MainViewController.swift in Sources */,
 				4F51CE521D93D5930024C44F /* PageTitleView.swift in Sources */,
